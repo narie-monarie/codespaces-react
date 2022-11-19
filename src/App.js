@@ -7,6 +7,7 @@ function App() {
   const counter = () =>{
     setCount(count+1);
   }
+  
   return (
     <div className="App">
     {count}
